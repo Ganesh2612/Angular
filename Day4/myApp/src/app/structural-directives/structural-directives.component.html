@@ -1,0 +1,8 @@
+<h1>ngFor Example</h1>
+<!-- <ul>
+    <li *ngFor="let movie of movies">{{movie}}</li>
+</ul> -->
+
+<ul>
+    <li *ngFor="let movie of movies; let i=index" style="list-style-type: square;">{{i}}  &nbsp; &nbsp;  {{movie}}</li>
+</ul>
