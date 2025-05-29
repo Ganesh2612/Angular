@@ -1,0 +1,16 @@
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+
+@Component({
+  selector: 'app-root',
+  imports: [RouterOutlet, CommonModule],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
+export class AppComponent {
+  title = 'Welcome to Angular';
+  toDate=new Date();
+  items=['item1','item2','item3','item4'];
+  price=500;
+}
