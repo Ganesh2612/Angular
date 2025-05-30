@@ -3,6 +3,28 @@
     <li *ngFor="let movie of movies">{{movie}}</li>
 </ul> -->
 
-<ul>
+<!-- <ul>
     <li *ngFor="let movie of movies; let i=index" style="list-style-type: square;">{{i}}  &nbsp; &nbsp;  {{movie}}</li>
-</ul>
+</ul> -->
+
+<!-- <ul>
+    <li *ngFor="let movie of movies; let isFirst=first; let isLast=last">
+        <strong *ngIf="isFirst">First : </strong>
+        <strong *ngIf="isLast">Last : </strong>
+        {{movie}}
+    </li>
+</ul> -->
+
+<!-- <ul>
+    <li *ngFor="let movie of movies; let isEven=even; let isOdd=odd" [ngClass]="{'even-item':isEven,'odd-item':isOdd}">
+        {{movie}}
+    </li>
+</ul> -->
+
+<!-- <input type="checkbox" [(ngModel)]="showMe">
+<p *ngIf="showMe">Can you see me</p> -->
+
+<!-- <input type="checkbox" [(ngModel)]="applyred">
+<p [ngClass]="{'primary':applyred}">sample text</p> -->
+
+<p [ngStyle]="{'color':'red','background-color':'grey'}">sample text</p>

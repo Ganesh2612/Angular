@@ -1,0 +1,14 @@
+.even-item{
+    background-color: green;
+}
+.odd-item{
+    background-color: antiquewhite;
+}
+
+.primary{
+    color:aquamarine;
+}
+
+.big{
+    font-size: 30px;
+}
